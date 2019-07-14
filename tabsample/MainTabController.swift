@@ -10,12 +10,15 @@ import UIKit
 
 class MainTabController: UITabBarController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.barTintColor = UIColor.lightGray
         setTabBar()
     }
-
+    
+    // MARK: - Tab Bar setup
+    
     func setTabBar() {
         let videoViewController = UINavigationController(rootViewController: VideoViewController())
         videoViewController.tabBarItem? = UITabBarItem(tabBarSystemItem: UITabBarItem.SystemItem.topRated, tag: 0)
