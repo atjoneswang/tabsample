@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0EF53422DB845F00678673 /* PopupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EF53322DB845E00678673 /* PopupWindow.swift */; };
 		EE360E3022D8DD3600AF27A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE360E2F22D8DD3600AF27A3 /* AppDelegate.swift */; };
 		EE360E3222D8DD3600AF27A3 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE360E3122D8DD3600AF27A3 /* MainTabController.swift */; };
 		EE360E3722D8DD3700AF27A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE360E3622D8DD3700AF27A3 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0EF53322DB845E00678673 /* PopupWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWindow.swift; sourceTree = "<group>"; };
 		EE360E2C22D8DD3600AF27A3 /* tabsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE360E2F22D8DD3600AF27A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE360E3122D8DD3600AF27A3 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				EE360E3622D8DD3700AF27A3 /* Assets.xcassets */,
 				EE360E3B22D8DD3700AF27A3 /* Info.plist */,
 				EE360E4522D8E87F00AF27A3 /* MoreViewController.swift */,
+				EE0EF53322DB845E00678673 /* PopupWindow.swift */,
 				EE360E4722D8EB8400AF27A3 /* PushViewController.swift */,
 			);
 			path = tabsample;
@@ -144,6 +147,7 @@
 				EE360E4822D8EB8400AF27A3 /* PushViewController.swift in Sources */,
 				EE360E3222D8DD3600AF27A3 /* MainTabController.swift in Sources */,
 				EE360E3022D8DD3600AF27A3 /* AppDelegate.swift in Sources */,
+				EE0EF53422DB845F00678673 /* PopupWindow.swift in Sources */,
 				EE360E4222D8DEF300AF27A3 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
