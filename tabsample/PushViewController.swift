@@ -35,6 +35,10 @@ class PushViewController: UIViewController {
         return view
     }()
     
+    deinit {
+        
+        print(" PushViewController deinit")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

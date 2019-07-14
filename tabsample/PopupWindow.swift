@@ -42,6 +42,7 @@ class PopupWindow: UIView {
     
     deinit {
         openWindower = nil
+        print("PopupWindow deinit")
     }
     @objc func handlePopup(){
         openWindower?.closeDialog()

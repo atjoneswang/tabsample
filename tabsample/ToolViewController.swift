@@ -23,6 +23,11 @@ class ToolViewController: UIViewController {
         button.addTarget(self, action: #selector(pushview), for: .touchUpInside)
         return button
     }()
+    
+    let pushView: PushViewController = {
+       let view = PushViewController()
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +45,7 @@ class ToolViewController: UIViewController {
     }
     
     @objc func pushview(){
-        navigationController?.pushViewController(PushViewController(), animated: true)
+        navigationController?.pushViewController(pushView, animated: true)
     }
     
 
